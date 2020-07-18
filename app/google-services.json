@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "314647316675",
+    "firebase_url": "https://gamely-59249.firebaseio.com",
+    "project_id": "gamely-59249",
+    "storage_bucket": "gamely-59249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314647316675:android:9361807308eeab955a7a76",
+        "android_client_info": {
+          "package_name": "com.stimuligaming.gamely"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314647316675-o62vhkng4chrp5d6f3vl17q0cpb8k1nd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stimuligaming.gamely",
+            "certificate_hash": "2ae6b9ae3f3f050dcee2a6dd680deda005b0278c"
+          }
+        },
+        {
+          "client_id": "314647316675-ln3l6jl9p1hfkd4nqo75ss2dhhjgt1i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgZeylg6aSadg058OPCx3ZplMweposMQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314647316675-ln3l6jl9p1hfkd4nqo75ss2dhhjgt1i4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteDark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Include Appbar -->
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/custom_appbar" />
+
+    <View android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/profile_bg_shadow"
+        android:layout_below="@+id/app_bar"/>
+
+
+    <fragment
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navbar_navigation"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/floating_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="end"
+            android:layout_margin="16dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_button"
+            android:src="@drawable/ic_game_controller"
+            android:tint="@color/white"
+            android:elevation="10dp"
+            app:layout_constraintBottom_toTopOf="@id/bottom_navbar"
+            app:layout_constraintLeft_toRightOf="@id/bottom_navbar"
+            app:layout_constraintRight_toLeftOf="@id/bottom_navbar"
+            app:layout_constraintTop_toBottomOf="@id/bottom_navbar"
+            app:layout_constraintTop_toTopOf="@id/bottom_navbar"
+            app:layout_insetEdge="bottom" />
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/navbar_menu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

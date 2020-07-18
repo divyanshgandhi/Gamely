@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Gamely</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!--Navigation items-->
+    <string name="home">Home</string>
+    <string name="buddies">Buddies</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+
+    <!--Forms' fields-->
+    <string name="login_text">Login using your username and password\nOr use any of the services below.</string>
+    <string name="email_hint">E-mail</string>
+    <string name="email_username_hint">E-mail/Username</string>
+    <string name="password_hint">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login">Login</string>
+    <string name="register_pretext">Don\'t have an account?</string>
+    <string name="signup">Signup</string>
+    <string name="register">Register</string>
+    <string name="login_pretext">Already have an account?</string>
+    <string name="username">Username</string>
+    <string name="register_text">Register to create your account\nAnd start playing together now!</string>
+
+    <!--Facebook stuff-->
+    <string name="facebook_app_id">617548199118271</string>
+    <string name="fb_login_protocol_scheme">fb617548199118271</string>
+
+    <!--Agoria SDK App ID-->
+    <string name="agora_app_id" translatable="false">216e4b0515cc4b47a07360ac87e4ec92</string>
+
+
+    <string name="user_search">Search for users</string>
+    <string name="search_title">Search anything; everything.</string>
+    <string name="user_search_text">Find friends, somebody you came across, strangers or any other people on the platform</string>
+    <string name="game_search">Search for games</string>
+    <string name="game_search_text">Find games on your device, games your friends are playing or games you just heard of</string>
+
+    <string name="your_games">Your games</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="no_notifs_text">Your notifications show up here</string>
+    <string name="your_buddies">Your Buddies</string>
+    <string name="message_hint">Type a message</string>
+</resources>
