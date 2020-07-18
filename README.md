@@ -1,2 +1,2 @@
 # Gamely
-The code for the gamely app  Platform - Android
+The code for the gamely app\ Platform - Android
